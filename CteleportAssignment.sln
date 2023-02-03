@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Domain", "01 Domain", "{3C71A4B9-9903-4B60-B089-73DC90165599}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Services", "02 Services", "{2BBDF8D7-5A4F-43C0-B4ED-2B37A3A459C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Logic", "03 Logic", "{64465A26-31AD-48CF-A7B0-AEB9FE91DFC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Applications", "04 Applications", "{E1F8A869-D603-4A3A-B0C5-3D9C6FFC2610}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CteleportAssignment.Domain", "CteleportAssignment.Domain\CteleportAssignment.Domain.csproj", "{52237E52-8393-4144-914A-B1F3217342CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CteleportAssignment.Logic", "CteleportAssignment.Logic\CteleportAssignment.Logic.csproj", "{579E0751-F883-4C08-884F-E2883F299CF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CteleportAssignment.RestApi", "CteleportAssignment.RestApi\CteleportAssignment.RestApi.csproj", "{2EE61AA9-70A5-49E0-834A-7B373960E687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CteleportAssignmentCTeleportAirportService", "CteleportAssignmentCTeleportAirportService\CteleportAssignmentCTeleportAirportService.csproj", "{ECF73199-45EE-49D3-9404-BF9ED4D0881F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52237E52-8393-4144-914A-B1F3217342CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52237E52-8393-4144-914A-B1F3217342CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52237E52-8393-4144-914A-B1F3217342CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52237E52-8393-4144-914A-B1F3217342CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579E0751-F883-4C08-884F-E2883F299CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579E0751-F883-4C08-884F-E2883F299CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579E0751-F883-4C08-884F-E2883F299CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579E0751-F883-4C08-884F-E2883F299CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE61AA9-70A5-49E0-834A-7B373960E687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE61AA9-70A5-49E0-834A-7B373960E687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE61AA9-70A5-49E0-834A-7B373960E687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE61AA9-70A5-49E0-834A-7B373960E687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF73199-45EE-49D3-9404-BF9ED4D0881F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF73199-45EE-49D3-9404-BF9ED4D0881F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF73199-45EE-49D3-9404-BF9ED4D0881F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF73199-45EE-49D3-9404-BF9ED4D0881F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52237E52-8393-4144-914A-B1F3217342CF} = {3C71A4B9-9903-4B60-B089-73DC90165599}
+		{579E0751-F883-4C08-884F-E2883F299CF4} = {64465A26-31AD-48CF-A7B0-AEB9FE91DFC8}
+		{2EE61AA9-70A5-49E0-834A-7B373960E687} = {E1F8A869-D603-4A3A-B0C5-3D9C6FFC2610}
+		{ECF73199-45EE-49D3-9404-BF9ED4D0881F} = {2BBDF8D7-5A4F-43C0-B4ED-2B37A3A459C7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {933A660B-56E2-4E61-81D0-1D0238F39778}
+	EndGlobalSection
+EndGlobal
